@@ -1,0 +1,119 @@
+body{
+	background: #DAB2F8 ;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: lato;
+}
+.CAJA1{
+	background: #C79AE8 ;
+	width: 80%;
+	height: 10%;
+	margin-left: 7.9%;
+	margin-top: 1%;
+}
+
+
+.CAJA1 h1{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-left: 36%;
+	font-size: 300%;
+}
+.LOGOTIPO{
+	margin-left: 40px;
+	margin-top: 30px;
+	
+}
+
+.slider{
+	width: 200px;
+	height: auto;
+	margin: 50px ;
+	overflow: hidden;
+	margin-left: 1100px;
+	margin-top: -190px;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: slide 15s infinite alternate ease-in-out
+
+}
+.slider li{
+	list-style: none;
+	width: 100%;
+}
+.slider img{
+	width: 100%;
+	height: auto;
+}
+
+
+@keyframes slide{
+	0% {margin-left: 0%}
+	20% {margin-left: 0%}
+
+	25% {margin-left: -100%}
+	45% {margin-left: -100%}
+
+	50% {margin-left: -200%}
+	70% {margin-left: -200%}
+
+	75% {margin-left: -300%}
+	95% {margin-left: -300%}
+}
+
+
+.cajavision{
+	width: 15%;
+	height: 150%;
+	background: #EFDDFC ;
+	margin-left: 280px;
+	margin-top: -205px;
+	
+}
+.cajavision h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 200%;
+}
+
+.cajavision p{
+	font-family: 'Tajawal', sans-serif;
+	font-size: 110%;
+}
+
+.cajamision{
+	width: 15%;
+	height: 150%;
+	background: #EFDDFC ;
+	margin-left: 570px;
+	margin-top: -325px;
+}
+.cajamision h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 200%;
+}
+.cajamision p{
+	font-family: 'Tajawal', sans-serif;
+	font-size: 110%;
+}
+.cajavalores{
+	width: 15%;
+	height: 150%;
+	background: #EFDDFC ;
+	margin-left: 830px;
+	margin-top: -280px;
+}
+
+.cajavalores h3{
+	font-family: 'Nunito', sans-serif;
+	font-size: 200%;
+}
+.cajavalores p{
+	font-family: 'Tajawal', sans-serif;
+	font-size: 110%;
+}
